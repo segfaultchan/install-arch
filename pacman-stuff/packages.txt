@@ -1,0 +1,13 @@
+base
+base-devel
+linux
+linux-firmware
+nvim
+terminus-font
+man-db
+sudo
+zsh
+networkmanager
+nftables
+udisks2
+brightnessctl

@@ -1,0 +1,101 @@
+@define-color base #111111;
+@define-color second #66cc88;
+@define-color red #ee8888;
+@define-color yellow #eeee88;
+@define-color text #eeeeee;
+
+* {
+  font-family: "Noto Sans", "Awesome Font";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+tooltip {
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#cpu, #disk, #memory {
+  padding:3px;
+}
+
+#temperature {
+  font-size: 0px;
+}
+#temperature.critical {
+  padding-right: 3px;
+  color: @red;
+  font-size: initial;
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background-color: @base;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-right: 15px;
+  color: @text;
+}
+.modules-right,
+.modules-center {
+  padding-left: 15px;
+}
+
+#workspaces button.current_output {
+  color: @text;
+}
+#workspaces button.active {
+  color: @base;
+  border-radius: 10px;
+  background-color: @second;
+}
+#workspaces button {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#tray{
+}
+#tray > .passive {
+  border-bottom: none;
+}
+#tray > .active {
+  border-bottom: 3px solid white;
+}
+#tray > widget {
+  color: @second;
+}
+
+#pulseaudio {
+}
+
+#network {
+}
+#network.disabled,
+#network.disconnected {
+  color: @red;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+#battery.critical {
+  color: @red;
+}
+
+#language {
+}
+
+#clock {
+}

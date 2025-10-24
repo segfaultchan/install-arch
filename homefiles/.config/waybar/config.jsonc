@@ -1,0 +1,114 @@
+{
+    "layer": "bottom",
+    "position": "bottom",
+    "mod": "dock",
+    "exclusive": true,
+    "gtk-layer-shell": true,
+    "margin-bottom": -1,
+    "passthrough": false,
+    "height": 25,
+    "spacing": 12,
+    "modules-left": [
+        "niri/workspaces",
+        "cpu",
+        "temperature",
+        "memory",
+        "disk"
+    ],
+    "modules-center": [
+        "niri/window"
+    ],
+    "modules-right": [
+       "tray",
+        "pulseaudio",
+        "network",
+        "battery",
+        "backlight",
+        "niri/language",
+        "clock"
+    ],
+    "niri/language": {
+        "format": "{}",
+        "format-en": "US",
+        "format-ru": "RU"
+    },
+    "niri/workspaces": {
+        "icon-size": 5,
+        "spacing": 5,
+    },
+    "niri/window": {
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "  {usage}%",
+        "max-length": 10
+    },
+    "network": {
+        "interval": 5,
+        "format-wifi": "{icon}",
+        "format-ethernet": "  ",
+        "format-disconnected":" ",
+        "format-icons": [ "󰤯 ", "󰤟 ", "󰤢 ", "󰤨 " ]
+    },
+    "battery": {
+        "states": {
+            "good": 80,
+            "warning": 35,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": [ "󰂎", "󰁻", "󰁽", "󰁿", "󰂁", "󰁹" ]
+    },
+    "pulseaudio": {
+        "max-volume": 150,
+        "scroll-step": 10,
+        "format": "{icon}",
+        "tooltip-format": "{volume}%",
+        "format-muted": " ",
+        "format-icons": {
+            "default": [ " ", " ", " " ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "backlight": {
+      "format": "{icon} {percent}%",
+      "format-icons": ["", "", "", "", ""],
+        "on-scroll-up": "~/.scripts/notify/brightness.sh up",
+        "on-scroll-down": "~/.scripts/notify/brightness.sh down"
+
+    },
+    "temperature": {
+        "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
+        "input-filename": "temp2_input",
+        "critical-threshold": 75,
+        "tooltip": false,
+        "format-critical": "({temperatureC}°C)",
+        "format": "({temperatureC}°C)"
+    },
+    "disk": {
+        "interval": 30,
+        "format": "󰋊 {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "unit": "GB",
+        "tooltip-format":  "Available {free} of {total}"
+    },
+    "memory": {
+        "interval": 10,
+        "format": " {percentage}%",
+        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": "RAM - {used:0.1f}GiB used"
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 3
+    },
+    "clock": {
+        "format": "{:%R  %d.%m.%Y}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    }
+}

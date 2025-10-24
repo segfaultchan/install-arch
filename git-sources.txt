@@ -1,0 +1,5 @@
+https://aur.archlinux.org/paru.git
+https://github.com/ohmyzsh/ohmyzsh.git
+https://github.com/segfaultchan/dotfiles.git
+https://github.com/vinceliuice/Orchis-theme.git
+https://github.com/vinceliuice/WhiteSur-gtk-theme.git

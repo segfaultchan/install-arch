@@ -1,0 +1,37 @@
+{
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "de",
+    "wm",
+    "font",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "localip",
+    "battery",
+    "break",
+    "colors"
+  ],
+  "logo": {
+    "width": 32,
+    "type": "sixel",
+    "source": "~/.config/fastfetch/img/whatsapp.jpg",
+    "padding": {
+      "left": 4,
+      "top": 1
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "green",
+      "title": "green"
+    }
+  }
+}
