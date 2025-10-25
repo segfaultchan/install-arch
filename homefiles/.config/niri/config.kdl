@@ -69,6 +69,7 @@ cursor {
 spawn-at-startup "waybar"
 spawn-at-startup "udiskie"
 spawn-sh-at-startup "hyprpaper"
+spawn-sh-at-startup "hypridle"
 spawn-sh-at-startup "mako"
 
 hotkey-overlay {
@@ -107,7 +108,7 @@ binds {
     Mod+D repeat=false hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L repeat=false hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
     
-    Alt+W { spawn-sh "pkill waybar ; waybar"; }
+//  Alt+W { spawn-sh "pkill waybar ; waybar"; }
     Mod+E { spawn-sh "foot yazi"; }
     Mod+Z { spawn "firefox"; }
     Mod+V { spawn "pavucontrol"; }

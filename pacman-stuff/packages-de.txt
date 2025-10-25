@@ -9,6 +9,7 @@ mako
 hyprpaper
 hyprlock
 hyprpicker
+hypridle
 ttf-hack-nerd
 ttf-font-awesome
 noto-fonts-cjk

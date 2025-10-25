@@ -18,3 +18,4 @@ gopls
 fastfetch
 shadowsocks-rust
 openssh
+wget
