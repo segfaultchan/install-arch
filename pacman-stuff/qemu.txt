@@ -1,0 +1,3 @@
+qemu-desktop
+virt-manager
+dnsmasq

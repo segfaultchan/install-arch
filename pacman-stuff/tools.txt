@@ -19,3 +19,4 @@ fastfetch
 shadowsocks-rust
 openssh
 wget
+p7zip
