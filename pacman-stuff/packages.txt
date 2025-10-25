@@ -7,7 +7,9 @@ terminus-font
 man-db
 sudo
 zsh
-networkmanager
 nftables
 udisks2
 brightnessctl
+iwd
+dhcpcd
+openresolv
