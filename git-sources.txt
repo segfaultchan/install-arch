@@ -3,3 +3,6 @@ https://github.com/ohmyzsh/ohmyzsh.git
 https://github.com/segfaultchan/dotfiles.git
 https://github.com/vinceliuice/Orchis-theme.git
 https://github.com/vinceliuice/Tela-icon-theme.git
+
+# wget
+https://github.com/ful1e5/BreezeX_Cursor/releases/download/v2.0.1/BreezeX-Light.tar.xz
