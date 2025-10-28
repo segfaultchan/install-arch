@@ -1,5 +1,8 @@
 btop
 reflector
+gnupg
+openssh
+sshfs
 git
 fd
 bat
@@ -15,8 +18,10 @@ nodejs
 clang
 pyright
 gopls
+delve
+gdb
+valgrind
 fastfetch
 shadowsocks-rust
-openssh
 wget
 p7zip
