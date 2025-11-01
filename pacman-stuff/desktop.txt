@@ -24,3 +24,5 @@ mpv
 firefox
 discord
 telegram-desktop
+glfw-wayland
+openal
