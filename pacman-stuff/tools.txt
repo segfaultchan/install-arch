@@ -27,3 +27,4 @@ wget
 p7zip
 arch-wiki-lite
 docker
+mpv
