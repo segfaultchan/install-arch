@@ -6,6 +6,7 @@ wireplumber
 foot
 fuzzel
 mako
+swaybg
 hyprpaper
 hyprlock
 hyprpicker

@@ -22,7 +22,7 @@
   "logo": {
     "width": 32,
     "type": "sixel",
-    "source": "~/.config/fastfetch/img/whatsapp.jpg",
+    "source": "~/.config/fastfetch/img/viber.jpg",
     "padding": {
       "left": 4,
       "top": 1
@@ -30,8 +30,8 @@
   },
   "display": {
     "color": {
-      "keys": "green",
-      "title": "green"
+      "keys": "magenta",
+      "title": "magenta"
     }
   }
 }

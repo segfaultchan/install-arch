@@ -5,11 +5,11 @@ font=Hack Nerd Font
 background-color=#000000ff
 text-color=#ffffffff
 
-border-color=#66ff88ff
-border-size=3
+border-color=#907b9eff
+border-size=2
 border-radius=10
 
-progress-color=#66ff88ff
+progress-color=#cc66ffff
 
 width=300
 height=100

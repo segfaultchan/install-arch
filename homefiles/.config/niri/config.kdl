@@ -22,12 +22,13 @@ input {
 
 output "eDP-1" {
     mode "1920x1080@60.020"
-    scale 1.2
+    scale 1.5
     transform "normal"
     position x=1920 y=0
 }
 
 layout {
+    background-color "transparent"
     gaps 5
     center-focused-column "never"
     preset-column-widths {
@@ -41,8 +42,8 @@ layout {
     }
 
     border {
-        width 3
-        active-gradient from="#44ff88" to="#88ffcc" angle=45
+        width 2
+        active-gradient from="#ccaacc" to="#ee88ee" angle=45
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
@@ -54,8 +55,17 @@ layout {
     }
 }
 
+overview {
+  zoom 0.7
+}
+
+layer-rule {
+  match namespace="^wallpaper$"
+  place-within-backdrop true
+}
+
 environment {
-    GDK_SCALE "1"
+    GDK_SCALE "1.5"
     QT_QPA_PLATFORMTHEME "gtk3"
     XDG_SESSION_TYPE "wayland"
     XDG_CURRENT_DESKTOP "Niri"
@@ -71,6 +81,7 @@ spawn-at-startup "udiskie"
 spawn-sh-at-startup "hyprpaper"
 spawn-sh-at-startup "hypridle"
 spawn-sh-at-startup "mako"
+spawn-sh-at-startup "swaybg -i ~/pictures/wp-blur"
 
 hotkey-overlay {
     skip-at-startup
