@@ -5,8 +5,6 @@ openssh
 sshfs
 git
 fd
-bat
-lsd
 yazi
 usbutils
 pciutils
@@ -24,6 +22,7 @@ valgrind
 fastfetch
 shadowsocks-rust
 wget
+rsync
 p7zip
 arch-wiki-lite
 docker

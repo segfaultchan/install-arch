@@ -11,9 +11,20 @@ set smartcase
 set showcmd
 set showmode
 set hlsearch
+set autoread
 set wildmenu
 
+set lazyredraw
+set ruler
+set ai
+
 inoremap jj <esc>
+filetype plugin on
+filetype indent on
+
+let mapleader = " "
+
+colorscheme elflord
 
 call plug#begin('~/.vim/plugged')
 
