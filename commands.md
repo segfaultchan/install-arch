@@ -5,3 +5,5 @@
 # icons
 `./install.sh -d $HOME/.icons -c green`
 
+### blur image
+magick wp-current -blur 150x15 wp-blur
