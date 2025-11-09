@@ -7,5 +7,5 @@ vulkan-intel
 lib32-vulkan-intel
 mesa
 lib32-mesa
-libva-intel-driver
+intel-media-driver
 libva-utils
