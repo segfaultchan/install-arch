@@ -22,9 +22,9 @@ xdg-desktop-portal-gtk
 nwg-look
 pavucontrol
 mpv
-firefox
 discord
 telegram-desktop
 glfw-wayland
+xwayland-satellite
 openal
 imv
