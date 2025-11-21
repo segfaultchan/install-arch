@@ -1,4 +1,5 @@
 base
+exfat-tools
 base-devel
 linux
 linux-firmware
