@@ -1,4 +1,7 @@
 btop
+lsd
+unzip
+npm
 reflector
 gnupg
 openssh
@@ -13,17 +16,14 @@ wireshark-cli
 nmap
 tcpdump
 go
+meson
+ninja
 rustup
 python
-nodejs
-clang
-pyright
-gopls
 delve
 gdb
 valgrind
 fastfetch
-shadowsocks-rust
 wget
 rsync
 p7zip

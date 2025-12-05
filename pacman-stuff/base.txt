@@ -3,7 +3,7 @@ exfat-utils
 base-devel
 linux
 linux-firmware
-nvim
+neovim
 terminus-font
 man-db
 sudo
