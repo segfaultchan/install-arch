@@ -1,5 +1,5 @@
 base
-exfat-tools
+exfat-utils
 base-devel
 linux
 linux-firmware
