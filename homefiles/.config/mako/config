@@ -2,12 +2,12 @@ max-history=4
 default-timeout=5000
 
 font=Hack Nerd Font
-background-color=#000000ff
+background-color=#121212ff
 text-color=#ffffffff
 
-border-color=#907b9eff
+border-color=#ffffff77
 border-size=2
-border-radius=10
+border-radius=5
 
 progress-color=#cc66ffff
 
