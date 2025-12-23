@@ -1,7 +1,0 @@
-2025/12/23-23:29:05.212 1505e Reusing MANIFEST /home/notuser/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/23-23:29:05.212 1505e Recovering log #3
-2025/12/23-23:29:05.221 1505e Reusing old log /home/notuser/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
-2025/12/23-23:29:05.222 150de Level-0 table #5: started
-2025/12/23-23:29:05.229 150de Level-0 table #5: 892653 bytes OK
-2025/12/23-23:29:05.230 150de Delete type=0 #3
-2025/12/23-23:29:05.231 1505e Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
