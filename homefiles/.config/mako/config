@@ -1,15 +1,14 @@
 max-history=4
 default-timeout=5000
 
-font=Hack Nerd Font
-background-color=#000000ff
+font=NotoSans Regular
+background-color=#0f0f0fff
 text-color=#ffffffff
 
-border-color=#907b9eff
-border-size=2
-border-radius=10
+border-color=#f44336ff
+border-size=0
+border-radius=5
 
-progress-color=#cc66ffff
-
-width=300
-height=100
+progress-color=#f44336ff
+width=250
+height=200

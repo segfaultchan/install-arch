@@ -1,0 +1,17 @@
+@define-color base1   #0c0c12;
+@define-color base2   #000000;
+@define-color style1  #e0a0ff;
+@define-color style2  #700090;
+@define-color style3  #300040;
+@define-color text    #eeeeee;
+@define-color warn1   #dddd66;
+@define-color warn2   #ff6688;
+
+* {
+  font-family: FontAwesome, Roboto;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: @base1;
+}

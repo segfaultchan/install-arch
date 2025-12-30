@@ -1,0 +1,8 @@
+[mgr]
+show_symlink = true
+show_hidden = true
+ratio = [ 2,6,4 ]
+sort_by = "extension"
+sort_reverse = true
+sort_dir_first = true
+linemode = "size"

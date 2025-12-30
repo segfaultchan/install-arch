@@ -1,0 +1,149 @@
+terminal_title_flag = ""
+locale = "en"
+close_when_open = true
+theme = "material"
+monitor = ""
+hotreload_theme = true
+as_window = false
+timeout = 0
+disable_click_to_close = false
+force_keyboard_focus = true
+theme_location = []
+plugin_location = []
+js_runtime = "node"
+
+[keys]
+accept_typeahead = ["tab"]
+trigger_labels = "lalt"
+# next = ["ctrl j"]
+# prev = ["ctrl k"]
+close = ["esc"]
+remove_from_history = ["shift backspace"]
+resume_query = ["ctrl r"]
+toggle_exact_search = ["ctrl m"]
+
+[keys.activation_modifiers]
+keep_open = "shift"
+alternate = "alt"
+
+# [keys.ai]
+# clear_session = ["ctrl x"]
+# copy_last_response = ["ctrl c"]
+# resume_session = ["ctrl r"]
+# run_last_response = ["ctrl e"]
+
+[events]
+on_activate = ""
+on_selection = ""
+on_exit = ""
+on_launch = ""
+on_query_change = ""
+
+[list]
+dynamic_sub = true
+keyboard_scroll_style = "vim"
+max_entries = 50
+show_initial_entries = true
+single_click = true
+visibility_threshold = 20
+placeholder = "No Results"
+
+[search]
+argument_delimiter = "#"
+placeholder = "search"
+delay = 0
+resume_last_query = false
+
+[activation_mode]
+labels = "hjkl"
+
+[builtins.applications]
+weight = 5
+name = "applications"
+placeholder = "Applications"
+prioritize_new = true
+hide_actions_with_empty_query = true
+context_aware = true
+refresh = true
+show_sub_when_single = true
+show_icon_when_single = true
+show_generic = true
+history = false
+
+[[builtins.bookmarks.entries]]
+label = "Walker"
+url = "https://github.com/abenz1267/walker"
+keywords = ["walker", "github"]
+
+[builtins.emojis]
+exec = "wl-copy"
+weight = 5
+name = "emojis"
+placeholder = "Emojis"
+switcher_only = true
+history = true
+typeahead = true
+show_unqualified = false
+
+[builtins.symbols]
+exec = "wl-copy '%RESULT%'"
+weight = 5
+name = "symbols"
+placeholder = "Symbols"
+switcher_only = true
+history = true
+typeahead = true
+
+[builtins.finder]
+use_fd = false
+fd_flags = "--ignore-vcs --type file --type directory"
+cmd_alt = "xdg-open \"$(dirname \"$HOME/%RESULT%\")\""
+weight = 5
+name = "finder"
+placeholder = "Finder"
+switcher_only = true
+ignore_gitignore = true
+refresh = true
+concurrency = 8
+show_icon_when_single = true
+preview_images = false
+
+[builtins.runner]
+eager_loading = true
+weight = 5
+name = "runner"
+placeholder = "Runner"
+typeahead = true
+history = true
+generic_entry = false
+refresh = true
+use_fd = false
+
+[builtins.ssh]
+weight = 5
+name = "ssh"
+placeholder = "SSH"
+switcher_only = true
+history = true
+refresh = true
+
+[builtins.switcher]
+weight = 5
+name = "switcher"
+placeholder = "Switcher"
+prefix = "/"
+
+[builtins.websearch]
+keep_selection = true
+weight = 5
+name = "websearch"
+placeholder = "Websearch"
+
+[[builtins.websearch.entries]]
+name = "Google"
+url = "https://www.google.com/search?q=%TERM%"
+
+[[builtins.websearch.entries]]
+name = "DuckDuckGo"
+url = "https://duckduckgo.com/?q=%TERM%"
+switcher_only = true
